@@ -91,7 +91,7 @@ $conn->close();
             </div>
 
             <div class="button">
-                <button type="login">Login</button>
+            <button type="login">Login</button>
             </div>
 
             <div class="form-row">
@@ -101,6 +101,12 @@ $conn->close();
             <div class="registration">
             <a href="registration.php">Click to Register?</a>
             </div>
+            <div class="guest">
+            <label for="invitationCode">Enter Invitation Code:</label>
+            <input type="text" id="invitationCode" name="invitationCode" placeholder="Invitation Code">
+            <button name="guest" type="guest" onclick="">Login as Guest</button>
+           </div>
+           </div>
 
  </form>
 
